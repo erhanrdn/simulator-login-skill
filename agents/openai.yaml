@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simulator Login"
+  short_description: "Reliable simulator login with test credentials"
+  default_prompt: "Use $simulator-login to sign in to the app on the active simulator with the supplied test credentials and verify the authenticated session."

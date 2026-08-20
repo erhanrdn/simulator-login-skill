@@ -2,10 +2,10 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "simulator-login",
   "displayName": "Simulator Login",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reliable sign-in automation for apps on iOS Simulator and Android Emulator using user-supplied test credentials.",
   "author": {
-    "name": "erhanrdn",
+    "name": "Erhan Erden",
     "url": "https://github.com/erhanrdn"
   },
   "homepage": "https://github.com/erhanrdn/simulator-login-skill",

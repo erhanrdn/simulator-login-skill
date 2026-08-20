@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Simulator Login</title>
+  <rect width="512" height="512" rx="112" fill="#146C94"/>
+  <rect x="118" y="72" width="276" height="368" rx="52" fill="none" stroke="#FFFFFF" stroke-width="28"/>
+  <path d="M214 116h84" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="256" cy="252" r="84" fill="#FFFFFF" opacity="0.14"/>
+  <path d="m200 250 38 38 78-88" fill="none" stroke="#FF8A34" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256" cy="392" r="14" fill="#FFFFFF"/>
+</svg>

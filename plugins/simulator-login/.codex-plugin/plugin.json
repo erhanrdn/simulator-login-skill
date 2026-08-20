@@ -1,9 +1,9 @@
 {
   "name": "simulator-login",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reliable sign-in automation for apps on iOS Simulator and Android Emulator using user-supplied test credentials.",
   "author": {
-    "name": "erhanrdn",
+    "name": "Erhan Erden",
     "url": "https://github.com/erhanrdn"
   },
   "homepage": "https://github.com/erhanrdn/simulator-login-skill",
@@ -20,12 +20,14 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Simulator Login",
-    "shortDescription": "Reliable login on simulators and emulators",
+    "shortDescription": "Reliable simulator sign-in",
     "longDescription": "Sign in to apps on iOS Simulator and Android Emulator with supplied test credentials, handle input issues, and verify the authenticated state.",
-    "developerName": "erhanrdn",
-    "category": "Productivity",
+    "developerName": "Erhan Erden",
+    "category": "Developer Tools",
     "capabilities": [
-      "Interactive"
+      "Authenticate simulator sessions",
+      "Handle native and WebView forms",
+      "Verify signed-in state"
     ],
     "websiteURL": "https://github.com/erhanrdn/simulator-login-skill",
     "privacyPolicyURL": "https://github.com/erhanrdn/simulator-login-skill/blob/main/PRIVACY.md",
@@ -35,6 +37,8 @@
       "Log in on the Android emulator with my test credentials.",
       "Prepare an authenticated simulator session for screenshots."
     ],
-    "brandColor": "#146C94"
+    "brandColor": "#146C94",
+    "composerIcon": "./assets/composer-icon.svg",
+    "logo": "./assets/logo.svg"
   }
 }

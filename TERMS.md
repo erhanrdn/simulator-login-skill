@@ -2,6 +2,8 @@
 
 Effective date: August 20, 2026
 
+Publisher: Erhan Erden
+
 Simulator Login is provided under the MIT License and without warranties. Use it only on devices, applications, environments, and accounts that you are authorized to access.
 
 You are responsible for the credentials you provide, the actions performed by your chosen agent, compliance with application and service terms, and any changes made to your local or remote systems. The plugin must not be used to bypass authentication, obtain credentials, access accounts without permission, or perform unlawful activity.

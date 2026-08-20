@@ -27,11 +27,11 @@ Tap the center of the current element bounds. Refresh the hierarchy after naviga
 
 ## Enter Credentials Reliably
 
-`adb shell input text` can corrupt spaces, shell metacharacters, and some non-ASCII characters. Use it only for values proven safe for that route. For complex passwords, prefer an existing UI test framework or a supported device clipboard operation followed by Android’s paste key event. Probe clipboard support on the target image first because commands vary by Android version.
+`adb shell input text` can corrupt spaces, shell metacharacters, and some non-ASCII characters. Use it only for values proven safe for that route. For complex passwords, prefer an existing UI test framework or a supported device clipboard operation followed by Android's paste key event. Probe clipboard support on the target image first because commands vary by Android version.
 
 Fill and verify one field at a time. Clear old content before insertion, confirm the email visibly, and confirm that the password field is non-empty and masked. Close autofill suggestions or permission dialogs before tapping elsewhere.
 
-Use `adb shell input tap <x> <y>` only with coordinates derived from the current device screenshot or current UI bounds. If the keyboard hides the submit control, use the form’s IME action, scroll, or the normal Back action once; do not send repeated Back events that could leave the login screen.
+Use `adb shell input tap <x> <y>` only with coordinates derived from the current device screenshot or current UI bounds. If the keyboard hides the submit control, use the form's IME action, scroll, or the normal Back action once; do not send repeated Back events that could leave the login screen.
 
 ## Verify and Diagnose
 

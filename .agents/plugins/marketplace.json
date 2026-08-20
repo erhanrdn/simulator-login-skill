@@ -1,0 +1,20 @@
+{
+  "name": "erhanrdn-tools",
+  "interface": {
+    "displayName": "Erhanrdn Tools"
+  },
+  "plugins": [
+    {
+      "name": "simulator-login",
+      "source": {
+        "source": "local",
+        "path": "./plugins/simulator-login"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

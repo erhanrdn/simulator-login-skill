@@ -1,0 +1,24 @@
+{
+  "name": "erhanrdn-tools",
+  "owner": {
+    "name": "erhanrdn",
+    "url": "https://github.com/erhanrdn"
+  },
+  "description": "Portable developer workflow plugins for Codex and Claude Code.",
+  "plugins": [
+    {
+      "name": "simulator-login",
+      "source": "./plugins/simulator-login",
+      "displayName": "Simulator Login",
+      "description": "Reliable sign-in automation for iOS Simulator and Android Emulator.",
+      "category": "Developer Tools",
+      "tags": [
+        "ios",
+        "android",
+        "simulator",
+        "emulator",
+        "testing"
+      ]
+    }
+  ]
+}
